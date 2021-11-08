@@ -34,3 +34,10 @@ O front-end deve apresentar pelo menos os seguintes requisitos:
 
 ## Extras:
 - Build para produção
+
+## Endpoints
+- GET [/api/usuarios](/api/usuarios) - Busca todos os usuários cadastrados
+- GET [/api/usuarios/:id](/api/usuarios/:id) - Retorna o usuário com o id especificado
+- POST [/api/usuarios](/api/usuarios) - Adiciona um novo usuário
+- PUT [/api/usuarios/:id](/api/usuarios/:id) - Atualiza os dados de um usuário
+- DELETE [/api/usuarios/:id](/api/usuarios/:id) - Deleta o usuário com o id especificado
